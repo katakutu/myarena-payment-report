@@ -293,7 +293,7 @@ $ci_debug['VIEWPATH'] = VIEWPATH;
 # Global Constantconfig
 # Created by imzers@gmail.com
 */
-require(dirname(__FILE__) . DIRECTORY_SEPARATOR . IMZERSCONFIG);
+require($application_folder . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . IMZERSCONFIG);
 /*
  * --------------------------------------------------------------------
  * LOAD THE BOOTSTRAP FILE
