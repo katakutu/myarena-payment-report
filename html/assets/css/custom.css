@@ -1,0 +1,60 @@
+/* here you can put your own css to customize and override the theme */
+body {
+  font-size: 12px;
+}
+
+.form-control.date {
+	width: auto;
+	display: inline;
+}
+
+.search-btn {
+    margin-left: -3px;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td.success {
+    background: #DFF0D8;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td.danger {
+    background: #EBCCCC;
+}
+
+th a {
+    display: block;
+    width: 100%;
+    padding-right: 18px;
+    background: url("../img/sort_both.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+}
+
+th a.asc {
+    background: url("../img/sort_asc.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+}
+
+th a.desc {
+    background: url("../img/sort_desc.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+}
+
+.invoice.struk .invoice-logo, .invoice.struk .invoice-logo-space {
+  margin-bottom:0;
+}
+
+.invoice.struk table {
+  margin: 10px 0;
+}
+
+.invoice.struk td {
+    border: 0;
+    padding: 5px;
+}
+
+.dashboard-stat .details .number {
+  font-size: 28px;
+}
+
+.help-block.has-error {
+  background-color: #d84a38;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+}

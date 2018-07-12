@@ -1,0 +1,2 @@
+[Wed Jul 11 09:41:05.280818 2018] [proxy_fcgi:error] [pid 22491:tid 139878058669824] [client 203.144.233.54:55380] AH01071: Got error 'Primary script unknown\n'
+[Wed Jul 11 09:41:09.152371 2018] [proxy_fcgi:error] [pid 22497:tid 139878033491712] [client 203.144.233.54:55928] AH01071: Got error 'Primary script unknown\n'

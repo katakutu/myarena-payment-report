@@ -1,0 +1,29 @@
+Global Monthly Search
+
+Sistem Inventory 110
+Sistem Informasi Inventory 90
+Sistem Inventory Gudang 70
+Sistem Inventory Barang 70
+Program Inventory 90
+Aplikasi Inventory 140
+Software Inventory 140
+Sistem Informasi Inventory Barang 50
+Aplikasi Inventory Berbasis Web 110
+Aplikasi Inventory Barang 50
+Sistem Inventori 70
+Aplikasi Gudang 140
+Software Gudang 110
+Software Inventory Barang 20
+Software Inventory Gudang 20
+Sistem Informasi Pengadaan Barang 50
+Aplikasi Inventory Gudang 30
+Aplikasi Inventaris Barang Berbasis Web 30
+Sistem Informasi Toko 30
+Aplikasi Persediaan Barang Berbasis Web 30
+Aplikasi Gudang Berbasis Web 30
+Aplikasi Stok Barang Berbasis Web 30
+Aplikasi Inventori 20
+It Inventory 30
+Aplikasi untuk Stock Barang 10
+
+TOTAL 1570

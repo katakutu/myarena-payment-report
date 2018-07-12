@@ -1,0 +1,58 @@
+body {
+  font-family: "Roboto",sans-serif;
+}
+
+.form-group.required label:after, .form-group label.required:after {
+    color: red;
+    content: " *"
+}
+
+.banner-title-main {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 100;
+  margin: 40px 0;
+  text-transform: uppercase;
+}
+
+.banner-title-bold {
+  font-weight: 500;
+}
+
+.banner-title-paragraph {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.header .navbar-nav li a {
+  padding: 15px 16px 17px;
+}
+
+.header .nav li > a:hover, .header .nav li.active > a, .header .nav li.active:hover > a {
+  padding-top: 21px;
+}
+
+.header .nav li.active > a::after {
+  border-top: 3px solid #ff0000;
+}
+
+.header .nav li.active > a::after {
+  border-top: 3px solid #ff0000;
+}
+
+.header .navbar-nav > li > a:hover, .header .navbar-nav li.active > a, .header .navbar-nav li.active:hover > a {
+  border-top: 2px solid #ff0000 !important;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.parallax.bg {
+  background-image: url("../../img/bg/2.jpg");
+}

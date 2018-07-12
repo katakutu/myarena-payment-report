@@ -1,0 +1,9 @@
+{
+    "name": "imzers/php-imzers",
+    "description": "Custom Imzers Local Package",
+    "autoload": {
+        "psr-4": {
+            "Imzers\\": "src"
+        }
+    }
+}

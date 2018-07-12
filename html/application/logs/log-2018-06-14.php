@@ -1,0 +1,20 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2018-06-14 10:39:10 --> Severity: Warning --> mysqli::real_connect(): php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\wwwroot\apache\projects\codeigniter\mutasi\domains\bank.mutasi.project.true\html\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2018-06-14 10:39:10 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\wwwroot\apache\projects\codeigniter\mutasi\domains\bank.mutasi.project.true\html\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2018-06-14 10:39:10 --> Unable to connect to the database
+ERROR - 2018-06-14 10:39:11 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wwwroot\apache\projects\codeigniter\mutasi\domains\bank.mutasi.project.true\html\system\core\Exceptions.php:271) C:\wwwroot\apache\projects\codeigniter\mutasi\domains\bank.mutasi.project.true\html\system\core\Common.php 570
+ERROR - 2018-06-14 10:39:11 --> Severity: Warning --> mysqli::real_connect(): php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\wwwroot\apache\projects\codeigniter\mutasi\domains\bank.mutasi.project.true\html\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2018-06-14 10:39:11 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\wwwroot\apache\projects\codeigniter\mutasi\domains\bank.mutasi.project.true\html\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2018-06-14 10:39:11 --> Unable to connect to the database
+ERROR - 2018-06-14 10:39:11 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wwwroot\apache\projects\codeigniter\mutasi\domains\bank.mutasi.project.true\html\system\core\Exceptions.php:271) C:\wwwroot\apache\projects\codeigniter\mutasi\domains\bank.mutasi.project.true\html\system\core\Common.php 570
+ERROR - 2018-06-14 10:39:11 --> Severity: Warning --> mysqli::real_connect(): php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\wwwroot\apache\projects\codeigniter\mutasi\domains\bank.mutasi.project.true\html\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2018-06-14 10:39:11 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\wwwroot\apache\projects\codeigniter\mutasi\domains\bank.mutasi.project.true\html\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2018-06-14 10:39:11 --> Unable to connect to the database
+ERROR - 2018-06-14 10:39:11 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wwwroot\apache\projects\codeigniter\mutasi\domains\bank.mutasi.project.true\html\system\core\Exceptions.php:271) C:\wwwroot\apache\projects\codeigniter\mutasi\domains\bank.mutasi.project.true\html\system\core\Common.php 570
+ERROR - 2018-06-14 10:39:26 --> Query error: Table 'tdpid_logs.augipt_sessions' doesn't exist - Invalid query: SELECT `data`
+FROM `augipt_sessions`
+WHERE `id` = 'rt6902sninnaj4b7k01fcer8q8p3lenc'
+ERROR - 2018-06-14 10:39:26 --> Query error: Table 'tdpid_logs.augipt_sessions' doesn't exist - Invalid query: INSERT INTO `augipt_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES ('rt6902sninnaj4b7k01fcer8q8p3lenc', '127.0.0.1', 1528947566, '')
+ERROR - 2018-06-14 15:58:07 --> Severity: Notice --> Array to string conversion C:\wwwroot\apache\projects\codeigniter\mutasi\domains\bank.mutasi.project.true\html\application\modules\mutasi\controllers\Mutasi.php 1259
+ERROR - 2018-06-14 16:03:09 --> Severity: Notice --> Array to string conversion C:\wwwroot\apache\projects\codeigniter\mutasi\domains\bank.mutasi.project.true\html\application\modules\mutasi\views\mutasi\mutasi-account-transaction-condition-modal.php 22

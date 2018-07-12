@@ -1,0 +1,57 @@
+/***
+Invoice page
+***/
+.invoice table {
+  margin:30px 0 30px;
+}
+
+.invoice .invoice-logo {
+  margin-bottom:20px;
+}
+
+.invoice .invoice-logo p {
+  padding:5px 0;
+  font-size:26px;
+  line-height:28px;
+  text-align:right;
+}
+
+.invoice .invoice-logo p span {
+  display:block;
+  font-size:14px;
+}
+
+.invoice .invoice-logo-space {
+  margin-bottom:15px;
+}
+
+.invoice .invoice-payment strong {
+  margin-right:5px;
+}
+
+.invoice .invoice-block {
+  text-align:right;
+}
+
+.invoice .invoice-block .amounts {
+  margin-top: 20px;
+  font-size: 14px;
+}
+@media print {
+  /*Reset Style*/
+body {margin:0; padding:0; line-height: 1.4em; word-spacing:1px; letter-spacing:0.2px; font: 10px Arial, Helvetica,"Lucida Grande", serif; color: #000;}
+.invoice {margin: 0;}
+.table thead tr th {font-size: 12px;font-weight: 400;}
+.invoice .invoice-logo p, h3, h1 {font-size: 16px; margin-top: 0;}
+h4 {font-size: 14px;}
+.well {background-color: transparent; border:0; padding-left: 0;}
+.invoice .invoice-logo, .invoice table, hr {margin:0;}
+.invoice .invoice-block .amounts {font-size: 12px;}
+.invoice-logo-space, invoice-logo {padding:0;}
+.invoice-logo .col-xs-8 {padding-right: 0;}
+.invoice-payment {text-align: right; margin-top: 10px;}
+
+.struk td, .struk .table thead tr th{font-size: 8px;}
+}
+
+@page {margin: 0cm;}
