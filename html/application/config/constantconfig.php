@@ -136,33 +136,33 @@ class ConstantConfig {
 			case 'live':
 				switch (strtolower($name)) {
 					case 'api':
-						$db_params['hostname'] = 'srv001-sg.indodax.cc';
+						$db_params['hostname'] = 'payment-myarena.goodgames.net';
 						$db_params['dbport'] = 3306;
-						$db_params['username'] = 'augipt';
-						$db_params['password'] = 'S5D45u567AtO';
-						$db_params['database'] = 'augipt_api';
+						$db_params['username'] = 'project';
+						$db_params['password'] = 'project.true';
+						$db_params['database'] = 'myarena_payment_api';
 					break;
 					case 'dashboard':
-						$db_params['hostname'] = 'srv001-sg.indodax.cc';
+						$db_params['hostname'] = 'payment-myarena.goodgames.net';
 						$db_params['dbport'] = 3306;
-						$db_params['username'] = 'augipt';
-						$db_params['password'] = 'S5D45u567AtO';
-						$db_params['database'] = 'augipt_dashboard';
+						$db_params['username'] = 'project';
+						$db_params['password'] = 'project.true';
+						$db_params['database'] = 'myarena_payment_dashboard';
 					break;
 					case 'log':
-						$db_params['hostname'] = 'srv001-sg.indodax.cc';
+						$db_params['hostname'] = 'payment-myarena.goodgames.net';
 						$db_params['dbport'] = 3306;
-						$db_params['username'] = 'augipt';
-						$db_params['password'] = 'S5D45u567AtO';
-						$db_params['database'] = 'augipt_logs';
+						$db_params['username'] = 'project';
+						$db_params['password'] = 'project.true';
+						$db_params['database'] = 'myarena_payment_logs';
 					break;
 					case 'report':
 					default:
-						$db_params['hostname'] = 'srv001-sg.indodax.cc';
+						$db_params['hostname'] = 'payment-myarena.goodgames.net';
 						$db_params['dbport'] = 3306;
-						$db_params['username'] = 'augipt_gengtogel';
-						$db_params['password'] = 'S5D45u567AtO';
-						$db_params['database'] = 'augipt_gengtogel';
+						$db_params['username'] = 'project';
+						$db_params['password'] = 'project.true';
+						$db_params['database'] = 'paymentreport';
 					break;
 				}
 			break;
