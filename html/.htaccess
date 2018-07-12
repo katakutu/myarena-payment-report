@@ -11,12 +11,10 @@
 	##
 	# Codeigniter Rewrite
 	##
-	RewriteRule ^index\.php$ - [L]
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
-	RewriteCond $1 !^(index\.php|images|robots\.txt|css|docs|js|system|assets|media)
-	RewriteRule . /index.php [L]
-	#RewriteRule ^(.*)$ /index.php?/$1 [L,QSA]
+	#RewriteCond $1 !^(index\.php|images|robots\.txt|css|docs|js|system|assets|media)
+	RewriteRule ^(.*)$ /index.php?/$1 [L,QSA]
 	##
 	# Global Content-Type Rewrite
 	#RewriteRule .* - [E=HTTP_CONTENT_TYPE:%{HTTP:Content-Type},L]
