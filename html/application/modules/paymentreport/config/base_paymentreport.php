@@ -3,12 +3,12 @@ if ( ! defined('BASEPATH')) { exit('No direct script access allowed'); }
 
 switch (strtolower(ConstantConfig::THIS_SERVER_MODE)) {
 	case 'live':
-		$NFS_PATH_LOGS = '/home/logs/logs';
-		$NFS_PATH_CACHE = '/home/logs/cache';
+		$NFS_PATH_LOGS = (dirname(dirname(dirname(dirname(dirname(__DIR__))))) . DIRECTORY_SEPARATOR . 'logs');
+		$NFS_PATH_CACHE = (dirname(dirname(dirname(dirname(dirname(__DIR__))))) . DIRECTORY_SEPARATOR . 'logs' . DIRECTORY_SEPARATOR . 'cache');
 	break;
 	case 'dev':
 	default:
-		$NFS_PATH_LOGS = (dirname(dirname(dirname(dirname(dirname(__DIR__))))) . DIRECTORY_SEPARATOR . 'logs' . DIRECTORY_SEPARATOR . 'logs');
+		$NFS_PATH_LOGS = (dirname(dirname(dirname(dirname(dirname(__DIR__))))) . DIRECTORY_SEPARATOR . 'logs');
 		$NFS_PATH_CACHE = (dirname(dirname(dirname(dirname(dirname(__DIR__))))) . DIRECTORY_SEPARATOR . 'logs' . DIRECTORY_SEPARATOR . 'cache');
 	break;
 }

@@ -1,3 +1,4 @@
 databases/
 logs/
 html/application/config/
+html/application/logs/
