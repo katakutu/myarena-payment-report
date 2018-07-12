@@ -4,25 +4,23 @@
 	##
 	# FORCE HTTPS
 	##
-	#RewriteCond %{SERVER_NAME} =augipt.com [OR]
-	#RewriteCond %{SERVER_NAME} =www.augipt.com
+	#RewriteCond %{SERVER_NAME} =payment-myarena.goodgames.net [OR]
+	#RewriteCond %{SERVER_NAME} =payment.nav.co.id
 	#RewriteCond %{HTTPS} off
 	#RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
 	##
 	# Codeigniter Rewrite
 	##
+	RewriteRule ^index\.php$ - [L]
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
 	RewriteCond $1 !^(index\.php|images|robots\.txt|css|docs|js|system|assets|media)
-	RewriteRule ^(.*)$ /index.php?/$1 [L,QSA]
+	RewriteRule . /index.php [L]
+	#RewriteRule ^(.*)$ /index.php?/$1 [L,QSA]
 	##
 	# Global Content-Type Rewrite
-	RewriteRule .* - [E=HTTP_CONTENT_TYPE:%{HTTP:Content-Type},L]
+	#RewriteRule .* - [E=HTTP_CONTENT_TYPE:%{HTTP:Content-Type},L]
 </IfModule>
 <IfModule !mod_rewrite.c>
-    # If we don't have mod_rewrite installed, all 404's
-    # can be sent to index.php, and everything works as normal.
-    # Submitted by: ElliotHaughin
-
     ErrorDocument 404 /index.php
 </IfModule>
